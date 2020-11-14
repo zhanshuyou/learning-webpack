@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack",
     "watch": "webpack --watch",
-    "dev": "webpack-dev-server --open",
+    "dev": "node tools/dev-server.js",
     "start": "webpack-cli serve --mode development --port 3000",
     "server": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,6 +27,7 @@
     "css-loader": "^5.0.1",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^4.5.0",
+    "lodash": "^4.17.20",
     "mini-css-extract-plugin": "^1.2.1",
     "style-loader": "^2.0.0",
     "webpack": "^5.4.0",
